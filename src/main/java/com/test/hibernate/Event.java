@@ -46,4 +46,16 @@ public class Event {
 		return title;
 	}
 
+	public void setId(long id) {
+		this.id = id;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public void setDate(Date date) {
+		this.date = date;
+	}
+
 }
